@@ -1,5 +1,5 @@
 - [#A] sffd
   template:: todoDay
-  * list1
+  * [#A] list1
   * list2
   * list4
