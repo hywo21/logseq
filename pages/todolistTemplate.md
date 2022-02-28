@@ -1,4 +1,5 @@
 - [#A] sffd
   template:: todoDay
-  - sdf
-  - sdfsdf
+- * sdf
+  * asdf
+  * sdf
