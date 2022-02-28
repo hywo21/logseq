@@ -1,4 +1,4 @@
-- [[TODOList]]
+- ==[[TODOList]]==
   template:: tolistday
 	- [#A] list1
 	- [#B] 2
