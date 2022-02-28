@@ -1,3 +1,3 @@
-- sffd
+- [#A] sffd
   template:: todoDay
   *
