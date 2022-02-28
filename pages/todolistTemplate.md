@@ -1,4 +1,5 @@
 - [[TODOList]]
+  template:: todolistday
   * 时间1 
   
   * 神机箭2 
