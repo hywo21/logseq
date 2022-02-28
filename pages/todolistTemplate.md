@@ -2,5 +2,6 @@
   template:: todoDay
   * [#A] list1
   
-  * list2
-  * list4
+  * [#B] list2
+  
+  * {}list4
