@@ -4,4 +4,4 @@
   
   * [#B] list2
   
-  * {}list4
+  * [#C] list4
