@@ -1,2 +1,2 @@
 - sffd
-  template:: tolist
+  template::
