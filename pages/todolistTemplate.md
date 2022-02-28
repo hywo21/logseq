@@ -1,2 +1,3 @@
 - sffd
   template:: todoDay
+  *
