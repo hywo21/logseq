@@ -1,0 +1,7 @@
+span[data-ref="#red"] {
+	display: none;
+}
+span[data-ref="#red"] + mark {
+	background: #ccffc1;
+	font-size: 18px;
+}
