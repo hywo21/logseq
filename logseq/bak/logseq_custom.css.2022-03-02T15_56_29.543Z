@@ -1,0 +1,15 @@
+span[data-ref="#red"],
+span[data-ref="#green"],
+span[data-ref="#blue"],
+span[data-ref="#orange"],
+span[data-ref="#redf"],
+span[data-ref="#greef"],
+span[data-ref="#newcolor"],
+span[data-ref="#bluef"] {
+    display: none;
+}
+
+span[data-ref="#red"] + mark {
+    background: #ffc7c7;
+    border-radius: 10px;
+} 作者：我麋鹿啦丶 https://www.bilibili.com/read/cv15103422 出处：bilibili

@@ -1,0 +1,9 @@
+span[data-ref="#red"]{
+    display: none;
+}
+
+span[data-ref="#red"] + mark {
+    background: #ffc7c7;
+    border-radius: 5px;
+	padding:4px;
+}

@@ -4,5 +4,5 @@ D:
 cd D:\logsqlDataBase\logseq
 git add .
 git commit -m "Auto commit."
-git pull
+git pull origin master
 pause

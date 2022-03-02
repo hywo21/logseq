@@ -1,6 +1,6 @@
 - #springboot #java #后端
-- ### springboot 配置
-	- maven配置
+- ### **springboot 配置**
+	- ◼ maven配置
 	  
 	  ``` xml
 	  <mirrors>
@@ -29,7 +29,7 @@
 	  	</profile>
 	  </profiles>
 	  ```
-	- springboot依赖引入
+	- ◼ springboot依赖引入
 	  
 	  ``` xml
 	  <parent>
@@ -45,7 +45,7 @@
 	  	</dependency>
 	  </dependencies>
 	  ```
-	- 打包部署依赖引入
+	- ◼ 打包部署依赖引入
 	  ```xml
 	  <build>
 	  	<plugins>
@@ -57,8 +57,8 @@
 	  </build>
 	  ```
 	  在IDEA的Maven插件上点击运行 clean 、package，把helloworld工程项目的打包成jar包
-- ### springboot依赖管理特性
-	- 父项目做依赖管理
+- ### **springboot依赖管理特性**
+	- ◼ 父项目做依赖管理
 	  ```xml
 	  # 依赖管理
 	  <parent>
@@ -72,29 +72,39 @@
 	      </properties>
 	  ```
 	-
-	- 开发导入starter场景启动器
+	- ◼ 开发导入starter场景启动器
 	  1. 比如 spring-boot-starter-*:  *就是某种场景
 	  2. 只要引入starter, 这个场景的所有常规需要的依赖会自动引入
+	  3. 见到的 *-spring-boot-starter： 第三方为我们提供的简化开发的场景启动器。
+	  > 所有starter场景最底层依赖
+	  ```xml
+	  <dependency>
+	  	<groupId>org.springframework.boot</groupId>
+	  	<artifactId>spring-boot-starter</artifactId>
+	  	<version>2.3.4.RELEASE</version>
+	  	<scope>compile</scope>
+	  </dependency>
+	  ```
 -
-	- 无需关注版本号，自动版本仲裁
+	- ◼ 无需关注版本号，自动版本仲裁
 	  １．引入依赖默认都可不写版本
 	  ２．引入非仲裁的jar,要写版本号
 	-
-	- 可以修改默认版本号
+	- ◼ 可以修改默认版本号
 	  1. 查看 spring-boot-dependencies中规定依赖版本号
 	  2. 在当前项目中重写配置
-	  
 	  ``` xml
 	  <properties>
 	  	<mysql.version>5.1.43</mysql.version>
 	  </properties>
 	  ```
 -
+- ### **自动配置特性**
+	- ◼ 自动配置tomcat
 -
+	- ◼ 自动配置好springmvc
 -
--
--
--
+	- ◼ 自动配置好web常见功能
 -
 -
 -

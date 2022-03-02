@@ -1,0 +1,6 @@
+span["data-ref"] {
+	display: none;
+}
+span["data-ref"] + mark {
+	background: red;
+}

@@ -1,0 +1,15 @@
+- {{query (or [[数据库]])}}
+  query-sort-by:: block
+  query-table:: true
+  query-sort-desc:: false
+-
+- {{query (and [[TODO]])}}
+- {{query (or [[DOING]])}}
+  query-table:: false
+  query-sort-by:: clock-time
+  query-sort-desc:: false
+-
+- {{query (and [[A]] [[DOING]])}}
+  query-table:: false
+-
+-
