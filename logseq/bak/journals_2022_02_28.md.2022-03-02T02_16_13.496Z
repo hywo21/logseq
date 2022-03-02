@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - [[Mar 1st, 2022]]
 - DONE sfsdf
   :LOGBOOK:
@@ -46,48 +47,6 @@
   
   * 时间23
 -
-- ((621e3e5a-2b71-4594-9cd1-b29b9e87f011))
--
-- {{embed ((621e3e5a-2b71-4594-9cd1-b29b9e87f011))}}
--
-- id:: 621e3e5a-2b71-4594-9cd1-b29b9e87f011
--
--
-- #card sfsd
-  S
-  DFSDF
-  S
-  F
-  SDF
-  SDF
--
-- query-sort-by:: block
-  query-table:: false
-  query-sort-desc:: false
-  #+BEGIN_QUERY
-  {:title [:h5.font-bold.opacity-50 " ️ A级任务"] 
-      :query [:find (pull ?b [*])  :where 
-        [?b :block/marker ?marker]
-                 [(= "TODO" ?marker)]  ;;只使用关键词`TODO`进行任务标记
-        (not [?b :block/scheduled])
-        [?b :block/priority ?prio] ;;block优先级属性判断
-            [(= "A" ?prio)]
-        ]}
-  #+END_QUERY
--
-- query-table:: false
-  #+BEGIN_QUERY
-  {:query [:find (pull ?b [*])
-           :where
-           [?b :block/marker ?marker]
-           (not (not [?b :block/ref-pages ?p]
-           [?p :page/name ?page-name]
-           [(clojure.string/includes? ?page-name "okr")])
-           (not [?b :block/priority ?priority]
-           [(contains? #{"A" "B" "C"} ?priority)]))
-           [(contains? #{"DOING" "NOW"} ?marker)]]
-   }
-  #+END_QUERY
 -
 - [[TODOList]]
 	- [#A] list1
@@ -104,7 +63,72 @@
 	- [#C] 李松涛
 -
 -
-- ```calc
-  1*1+1
-  ```
 -
+- #+BEGIN_NOTE
+  sfsdfsd
+  #+END_NOTE
+- #+BEGIN_TIP
+  sfsfsf
+  
+  #+END_TIP
+- #+BEGIN_QUOTE
+  sdfsdf
+  
+  #+END_QUOTE
+- #+BEGIN_COMMENT
+  sdfsdf
+  #+END_COMMENT
+-
+- ``` sdfsfsf
+  sdfsdfsfsfsdf
+  sdfsdfsf
+  sdfs
+  fs
+  f
+  sf
+  sf
+  ```
+- query-table:: false
+  #+BEGIN_QUERY
+  sdfsfsdf
+  #+END_QUERY
+- #+BEGIN_IMPORTANT
+  wqrq
+  #+END_IMPORTANT
+- #+BEGIN_CAUTION
+  werwer
+  #+END_CAUTION
+- query-table:: true
+  query-sort-by:: block
+  query-sort-desc:: true
+  #+BEGIN_QUERY
+  sssss
+  #+END_QUERY
+-
+-
+- #+BEGIN_QUOTE
+  引入用
+  #+END_QUOTE
+-
+-
+- ``` java
+  sfsfsf
+  sfsf
+  ```
+- #+BEGIN_EXPORT latex
+  f(x)=x+5
+  #+END_EXPORT
+-
+-
+-
+-
+=======
+- todoListDay
+	- [#A] 重要任务
+		-
+	- [#B] 次要任务
+		-
+	- [#C] 其他任务
+		-
+- 自动提交测试
+>>>>>>> b83c72136274f3a1367b50842c6ebf2a7999e08f
