@@ -1,0 +1,21 @@
+- #sqlserver #数据库 #分页方法
+- ### 🎬Offset/Fetch Next 分页
+	- ``` sql
+	  select * from t_newhandplan
+	   order by id
+	   offset X rows
+	  fetch next Y rows only 
+	  
+	  ```
+- #+BEGIN_TIP
+  1. X表示从结果开始去除X行数据
+  
+  2. Y表示从去除X得结果去除Y行数据
+  #+END_TIP
+	- #### 获取第一页10行数据
+	- #+BEGIN_EXAMPLE
+	  select * from t_test
+	  order by id
+	  offset  0*10 rows
+	  fetch next 10 rows only
+	  #+END_EXAMPLE

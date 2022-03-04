@@ -1,0 +1,134 @@
+<<<<<<< HEAD
+- [[Mar 1st, 2022]]
+- DONE sfsdf
+  :LOGBOOK:
+  CLOCK: [2022-02-28 Mon 17:50:30]--[2022-02-28 Mon 17:50:31] =>  00:00:01
+  CLOCK: [2022-02-28 Mon 17:51:42]--[2022-02-28 Mon 17:51:44] =>  00:00:02
+  CLOCK: [2022-02-28 Mon 17:51:47]--[2022-02-28 Mon 17:51:48] =>  00:00:01
+  CLOCK: [2022-02-28 Mon 17:52:14]--[2022-02-28 Mon 17:52:16] =>  00:00:02
+  CLOCK: [2022-02-28 Mon 17:52:16]--[2022-02-28 Mon 17:52:17] =>  00:00:01
+  CLOCK: [2022-02-28 Mon 17:52:17]--[2022-02-28 Mon 17:52:17] =>  00:00:00
+  CLOCK: [2022-02-28 Mon 17:52:18]--[2022-02-28 Mon 17:52:21] =>  00:00:03
+  CLOCK: [2022-02-28 Mon 17:52:23]--[2022-02-28 Mon 17:52:26] =>  00:00:03
+  CLOCK: [2022-02-28 Mon 17:52:28]--[2022-02-28 Mon 17:53:14] =>  00:00:46
+  CLOCK: [2022-02-28 Mon 17:53:14]--[2022-02-28 Mon 17:55:27] =>  00:02:13
+  :END:
+-
+- DONE sss
+  :LOGBOOK:
+  CLOCK: [2022-02-28 Mon 17:53:01]--[2022-02-28 Mon 17:53:02] =>  00:00:01
+  CLOCK: [2022-02-28 Mon 17:53:03]--[2022-02-28 Mon 17:53:03] =>  00:00:00
+  CLOCK: [2022-02-28 Mon 17:53:04]--[2022-02-28 Mon 17:53:04] =>  00:00:00
+  CLOCK: [2022-02-28 Mon 17:53:05]--[2022-02-28 Mon 17:55:25] =>  00:02:20
+  :END:
+- LATER  [#C] #test sdfs
+  :LOGBOOK:
+  CLOCK: [2022-02-28 Mon 17:53:12]--[2022-02-28 Mon 17:53:12] =>  00:00:00
+  CLOCK: [2022-02-28 Mon 17:53:13]--[2022-02-28 Mon 17:53:13] =>  00:00:00
+  CLOCK: [2022-02-28 Mon 17:55:48]--[2022-02-28 Mon 17:55:49] =>  00:00:01
+  :END:
+-
+- [#A] ToDoList
+  * [#A] list1
+  1. agsds
+  2. sdfs
+  3. dfsd
+  4. fsfsd
+  * [#B] list2
+  
+  * [#C] list4
+-
+-
+- [[TODOList]]
+  * 时间1 
+      1. sfsd
+      2. 
+  3 神机箭2 
+  
+  * 时间23
+-
+-
+- [[TODOList]]
+	- [#A] list1
+		- TODO fsdf
+		  :LOGBOOK:
+		  CLOCK: [2022-02-28 Mon 18:14:10]--[2022-02-28 Mon 18:14:10] =>  00:00:00
+		  :END:
+		- TODO sdfsfsdf
+		  :LOGBOOK:
+		  CLOCK: [2022-02-28 Mon 18:14:09]--[2022-02-28 Mon 18:14:11] =>  00:00:02
+		  CLOCK: [2022-02-28 Mon 18:14:12]--[2022-02-28 Mon 18:14:14] =>  00:00:02
+		  :END:
+	- [#B] 2
+	- [#C] 李松涛
+-
+-
+-
+- #+BEGIN_NOTE
+  sfsdfsd
+  #+END_NOTE
+- #+BEGIN_TIP
+  sfsfsf
+  
+  #+END_TIP
+- #+BEGIN_QUOTE
+  sdfsdf
+  
+  #+END_QUOTE
+- #+BEGIN_COMMENT
+  sdfsdf
+  #+END_COMMENT
+-
+- ``` sdfsfsf
+  sdfsdfsfsfsdf
+  sdfsdfsf
+  sdfs
+  fs
+  f
+  sf
+  sf
+  ```
+- query-table:: false
+  #+BEGIN_QUERY
+  sdfsfsdf
+  #+END_QUERY
+- #+BEGIN_IMPORTANT
+  wqrq
+  #+END_IMPORTANT
+- #+BEGIN_CAUTION
+  werwer
+  #+END_CAUTION
+- query-table:: true
+  query-sort-by:: block
+  query-sort-desc:: true
+  #+BEGIN_QUERY
+  sssss
+  #+END_QUERY
+-
+-
+- #+BEGIN_QUOTE
+  引入用
+  #+END_QUOTE
+-
+-
+- ``` java
+  sfsfsf
+  sfsf
+  ```
+- #+BEGIN_EXPORT latex
+  f(x)=x+5
+  #+END_EXPORT
+-
+-
+-
+-
+=======
+- todoListDay
+	- [#A] 重要任务
+		-
+	- [#B] 次要任务
+		-
+	- [#C] 其他任务
+		-
+- 自动提交测试
+>>>>>>> b83c72136274f3a1367b50842c6ebf2a7999e08f
